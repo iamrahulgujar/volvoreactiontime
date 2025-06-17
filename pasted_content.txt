@@ -1,0 +1,12 @@
+After the user finishes the reaction challenge, a form appears asking for personal details: name, mobile number, and email address. I want you to do the following enhancements using only front-end technologies (no backend or server-side scripting):
+Track the fastest reaction time during the current session only. The reaction time is measured in seconds (e.g., 0.243 seconds). Use a JavaScript variable or localStorage to keep track of the best score so far.
+When a user submits the form, check if their reaction time is the fastest yet.
+If it is the fastest, store their name and reaction time as the current best.
+Display this best name and time at the top of the screen, in a clearly visible and styled area (you can use a new #leaderboard or #highscore div at the top of the page).
+Make sure the layout and design match the style used in style.css (Volvo blue background, white text, etc.).
+If the next user breaks the previous record, automatically update the displayed name and time with the new champion.
+The leaderboard only needs to show the single best performer (not a full list).
+Do not store data on a server or use backend files. Use only JavaScript and localStorage (if needed) to persist data across page refreshes during the session.
+Make sure the fastest time and name are visible on the main screen even before the next user starts the game.
+Format the displayed fastest time with 3 decimal places in seconds (e.g., “0.246 seconds”).
+Keep the personal detail form and reaction game flow as they are, but integrate this high-score logic smoothly into the flow."**

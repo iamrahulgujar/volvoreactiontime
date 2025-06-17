@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volvo Reaction Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="volvo_logo_new.png" alt="Volvo Logo" class="logo">
+        <h2>Can you beat the Volvo Car Breaking Challenge : 0.401 seconds?</h2>
+        
+        <div id="gameArea">
+            <div id="message">Click or Press Spacebar to Start</div>
+            <div id="result"></div>
+        </div>
+
+        <div id="formArea" style="display: none;">
+            <h3>Enter your details:</h3>
+            <form id="userInfoForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="mobile">Mobile Number:</label><br>
+                <input type="tel" id="mobile" name="mobile" required><br>
+                <label for="email">Email ID:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <button type="button" id="submitBtn">Submit</button> <!-- Changed to button type=button -->
+                 <p id="submitMessage" style="display: none; color: green;">Details noted (locally).</p>
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
